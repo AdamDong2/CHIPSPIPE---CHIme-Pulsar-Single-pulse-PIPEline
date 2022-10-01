@@ -1,8 +1,13 @@
 This pipeline only requires 2 packages to be installed (and all it's dependencies)
+
 PRESTO - https://github.com/scottransom/presto
+
 FETCH - https://github.com/devanshkv/fetch
+
 There are bugs with the latest version of FETCH and this pipeline so I suggest using an older version, specifically this version here https://github.com/devanshkv/fetch/tree/f9f385a15ac773282f75294870156223c0f1287a
+
 Commit #f9f385a on Nov 2, 2019 
+
 Todo: Update for compatibility with latest version of FETCH
 
 # Preparing the data
