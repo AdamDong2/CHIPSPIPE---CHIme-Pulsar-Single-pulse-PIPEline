@@ -29,11 +29,6 @@ The best way to run is to run the following command. You will need to run this c
 
 `check_single_pulse.sh -b -d $DM`
 
-#Citations
-If you use this pipeline please cite my paper!
-
-Dong et al. 2022 CHIME/FRB/Pulsar discoveries
-
 
 To run the FETCH part of the pipeline, please run
 
@@ -47,6 +42,8 @@ This script will only run the pipeline incrementally on `.fil` files, meaning th
 
 will grab all the astrophysical bursts and put them into `positive_bursts/` and create a `positive_burst.csv` file
 
-#Citations
-If you use this pipeline, please cite my paper!
-Dong et. al. 2022 CHIME Pulsar discoveries
+
+# Citations
+If you use this pipeline please cite my paper!
+
+Dong et al. 2022 CHIME/FRB/Pulsar discoveries
