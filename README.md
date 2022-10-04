@@ -25,7 +25,7 @@ Symlink all the filterbank files in some folder
 `ln -s $FULL_PATH_TO_FILTERBANK $DESTINATION`
 
 # CHIME-Pulsar_automated_filterbank
-The best way to run is to run the following command. You will need to run this command twice, once for the presto part of the pipeline and once for the FETCH part. It was designed this way for ease of use on super computers
+The best way to run is to run the following command. You will need to run this command twice, once for the presto part of the pipeline and once for the FETCH part. It was designed this way for ease of use on super computers (make sure that you run with the full path of check_single_pulse.sh for example, on my computer I run ~/adamdong/CHIPSPIPE/check_single_pulse.sh -b -d $DM; note that you should run the full path _in_ the directory with all the symlinked filterbank files!)
 
 `check_single_pulse.sh -b -d $DM`
 
